@@ -1,0 +1,160 @@
+body{
+  margin:0;
+  background-color: #ffc26f;
+}
+
+.container {
+  text-align: center;
+}
+
+.form-container{
+  box-shadow: 5px 10px 250px #c38154;
+  margin: auto;
+  width: 50%;
+  padding: 50px 30px;
+  border-radius: 50px 0;
+  background-color:#c38154;
+}
+
+.addnewbtn{
+  margin-top: 15px;
+  padding:15px;
+  border-radius: 25px;
+  color: white;
+  font-weight: 600;
+  border: 0;
+  background-color: #2b50aa;
+}
+
+.title{
+  border-radius: 0 0 25px 25px;
+  padding: 10px 0;
+  letter-spacing: 2.5px;
+  color:rgb(255, 255, 255);
+  text-shadow: 10px 5px 20px #240424;
+  font-size: 40px;
+  margin-top: 0;
+  font-family: 'Brush Script MT', cursive;
+  position: sticky;
+  top:0;
+  border-bottom: 5px solid #7a3e2e;
+  background-color: #884a39;
+  box-shadow: 0px 0px 30px #7a3e2e;
+}
+
+.listtitle{
+  color: white;
+}
+
+.addnewbtn:hover{
+  padding:17px;
+  border-radius: 28px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #2b50aa;
+}
+
+label{
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+td{
+  text-align: left;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+input{
+  margin-left: 10px;
+  font-size: 16px;
+  font-size: max(16px, 1em);
+  font-family: inherit;
+  padding: 0.35em 0.8em;
+  background-color: #fff;
+  border: 1.3px solid #8b8a8b;
+  border-radius: 10px;
+  width:100%;
+  cursor: pointer;
+}
+
+table{
+  margin: auto;
+}
+
+.phone-container{
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  width: 50%;
+  border-radius: 60px;
+  background-color: #c38154;
+}
+
+.listintput{
+  width:50%;
+}
+hr{
+  width: 80%;
+  border-radius: 100%;
+  background-color: #f9e0bb;
+}
+
+.entries{
+  margin: auto;
+  width: 50%;
+  text-align: left;
+}
+
+.entries > h3{
+  color: white;
+}
+
+.entries > p{
+  color: white;
+  font-weight: bold;
+  
+}
+
+.entries > h3 > span,.entries > p > span {
+  color: #FEFF86;
+}
+
+.update-btn{
+  margin-right: 10px;
+  padding:15px 30px;
+  border-radius: 25px;
+  color: white;
+  font-weight: 600;
+  border: 0;
+  background-color: #54B435;
+}
+
+.update-btn:hover{
+  padding:17px 32px;
+  border-radius: 28px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #54B435;
+}
+
+.delete-btn{
+  margin-left: 10px;
+  padding:15px 30px;
+  border-radius: 25px;
+  color: white;
+  font-weight: 600;
+  border: 0;
+  background-color: #B31312;
+}
+.delete-btn:hover{
+  padding:17px 32px;
+  border-radius: 28px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #B31312;
+}
